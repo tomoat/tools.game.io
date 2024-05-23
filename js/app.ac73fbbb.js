@@ -757,7 +757,7 @@
                             document.body.removeChild(t)
                     },
                     copyAuthor: function () {
-                        this.copyText("Darsbo")
+                        this.copyText("skyi2500")
                     }
                 }
             }
@@ -1246,7 +1246,7 @@
                             document.body.removeChild(t)
                     },
                     copyAuthor: function () {
-                        this.copyText("Darsbo")
+                        this.copyText("skyi2500")
                     }
                 }
             }
