@@ -69,7 +69,7 @@
                     color: "#ff0000",
                     wrapable: "",
                     scrollable: !1,
-                    text: "2023-06-04 由于使用的第三方商城支付渠道经常会不稳定，如遇到无法购买的，请加作者微信【darsbo】，发5元红包购买即可。"
+                    // text: "2023-06-04 由于使用的第三方商城支付渠道经常会不稳定，如遇到无法购买的，请加作者微信【darsbo】，发5元红包购买即可。"
                 }
             }), t._m(0), n("div", {
                 staticClass: "flex-space-between",
