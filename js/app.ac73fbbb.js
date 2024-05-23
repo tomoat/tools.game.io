@@ -1307,7 +1307,7 @@
             , f = n("fa7d")
             , l = n("bc3a")
             , d = l["a"].create({
-                baseURL: "/",
+                // baseURL: "/",
                 timeout: 3e4
             });
         d.interceptors.request.use((function (e) {
@@ -1452,7 +1452,7 @@
                         var e = this;
                         return new Promise((function (t, n) {
                             h({
-                                url: "./api/userInfo",
+                                url: "api/userInfo",
                                 method: "get",
                                 data: {
                                     uid: e.uid,

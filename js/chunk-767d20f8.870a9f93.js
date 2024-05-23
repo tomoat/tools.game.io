@@ -69,7 +69,7 @@
                     color: "#ff0000",
                     wrapable: "",
                     scrollable: !1,
-                    // text: "2023-06-04 由于使用的第三方商城支付渠道经常会不稳定，如遇到无法购买的，请加作者微信【darsbo】，发5元红包购买即可。"
+                    text: "如果您想支持我，请加我微信【skyi2500】，给我发红包即可。"
                 }
             }), t._m(0), n("div", {
                 staticClass: "flex-space-between",
@@ -2462,7 +2462,7 @@
                         "font-size": "14px",
                         "font-weight": "bold"
                     }
-                }, [t._v("该算分小工具已经正式开始收费了！")]), t._m(0), t.userInfo ? n("div", {
+                }, [t._v("该算分小工具已经免费使用了！")]), t._m(0), t.userInfo ? n("div", {
                     staticClass: "block-item-container",
                     class: "status-type-" + t.userStatus
                 }, [n("div", {
@@ -2529,15 +2529,15 @@
                     }
                 })], 1)], 1)
             }
-            // , dt = [function () {
-            //     var t = this
-            //         , e = t.$createElement
-            //         , n = t._self._c || e;
-            //     return n("div", {
-            //         staticClass: "buy-tips"
-            //     }, [t._v(" 使用此工具需要购买卡券。"), n("br"), t._v(" 购买后，一个卡券从激活使用后，有效期10天，有效期内可无限使用，每个卡券可以激活3次（之所以让激活3次，是因为使用信息是记录在浏览器缓存里，如果浏览器被意外清除了缓存，那就会失效，此时你还有2次机会可以激活这个卡券。如果2次机会都没了，那你只能再买一个咯。。。反正也不贵）"), n("br"), t._v(" 有任何问题，请加作者微信: Darsbo ")])
-            // }
-            // ]
+            , dt = [function () {
+                var t = this
+                    , e = t.$createElement
+                    , n = t._self._c || e;
+                return n("div", {
+                    staticClass: "buy-tips"
+                }, [t._v(" 使用此工具需要购买卡券。"), n("br"), t._v(" 购买后，一个卡券从激活使用后，有效期30天，）"), n("br"), t._v(" 有任何问题，请加微信: skyi2500 ")])
+            }
+            ]
             , ft = (n("1276"),
                 n("76b5"))
             , ht = {
