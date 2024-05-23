@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://darsbo.cn/#/ -->
+<html lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"
+    />
+    <title>公会战平局工具</title>
+    <meta
+      name="keywords"
+      content="末日血战,异城危机,公会战,平局,平局工具,并列,手机算分"
+    />
+    <meta
+      name="description"
+      content="最好用的末日血战(异城危机)公会战并列工具，简单好用，易操作易上手。"
+    />
+    <link rel="stylesheet" href="./css/vant_v2.12.css" />
+    <script charset="utf-8" src="./js/UrlChangeTracker.js"></script>
+    <!-- <script src="./js/hm.js"></script> -->
+    <!-- <script async="" src="./js/gio.js"></script> -->
+    <script src="./js/vue.min.js"></script>
+    <script src="./js/vuex.min.js"></script>
+    <script src="./js/vue-router.min.js"></script>
+    <script src="./js/vant.min.js"></script>
+    <!-- <script>
+      !(function (e, t, n, g, i) {
+        ;(e[i] =
+          e[i] ||
+          function () {
+            ;(e[i].q = e[i].q || []).push(arguments)
+          }),
+          (n = t.createElement('script')),
+          (tag = t.getElementsByTagName('script')[0]),
+          (n.async = 1),
+          (n.src =
+            ('https:' == document.location.protocol ? 'https://' : 'http://') +
+            g),
+          tag.parentNode.insertBefore(n, tag)
+      })(window, document, 'script', 'assets.giocdn.com/2.1/gio.js', 'gio')
+      gio('init', '955c7aa2c0251306', {})
+      gio('config', { hashtag: true })
+      gio('send') -->
+    </script>
+    <script>
+      /* var _hmt = _hmt || []
+      ;(function () {
+        var hm = document.createElement('script')
+        hm.src = 'https://hm.baidu.com/hm.js?fd66bb67c42c77cd453386b662e33080'
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(hm, s)
+      })() */
+    </script>
+
+    <link href="./css/app.deba6aca.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/chunk-767d20f8.3f546845.css"
+    />
+    <script charset="utf-8" src="./js/chunk-767d20f8.870a9f93.js"></script>
+  </head>
+  <body>
+    <h2
+      style="
+        display: inline-block;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        position: fixed;
+        bottom: -500px;
+        left: -500px;
+      "
+    >
+      最好用的末日血战(异城危机)公会战并列工具，简单好用，易操作易上手。
+    </h2>
+    <noscript
+      ><strong
+        >We're sorry but war-calc doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      ></noscript
+    >
+    <div data-v-5126c706="" id="app">
+      <div data-v-5126c706="" id="nav">
+        <a
+          data-v-5126c706=""
+          href="https://darsbo.cn/#/"
+          aria-current="page"
+          class="router-link-exact-active router-link-active"
+          >公会总安排</a
+        ><a data-v-5126c706="" href="https://darsbo.cn/#/calc" class=""
+          >随意算算分</a
+        >
+      </div>
+      <div data-v-04e51e8a="" data-v-5126c706="" class="page-war">
+        <div
+          data-v-04e51e8a=""
+          role="alert"
+          class="van-notice-bar van-notice-bar--wrapable"
+          style="color: rgb(255, 0, 0)"
+        >
+          <div role="marquee" class="van-notice-bar__wrap">
+            <div
+              class="van-notice-bar__content"
+              style="transition-duration: 0s"
+            >
+              2023-06-04
+              由于使用的第三方商城支付渠道经常会不稳定，如遇到无法购买的，请加作者微信【darsbo】，发5元红包购买即可。
+            </div>
+          </div>
+        </div>
+        <div data-v-04e51e8a="" class="help-info">
+          <h4 data-v-04e51e8a="">想要并列，需要以下条件</h4>
+          <ul data-v-04e51e8a="">
+            <li data-v-04e51e8a="">各家谈好，管理统一控制出兵，不乱打。</li>
+            <li data-v-04e51e8a="">
+              银行分配先谈好，正常1222分配。一般双金矿的银行占一天，第一天占。都是单矿的，协商分配。
+            </li>
+            <li data-v-04e51e8a="">
+              <span data-v-04e51e8a="" class="color-red"
+                >全场，每家预留1个沙地即可（枯木也可以）</span
+              >。其实理论上最终全场只要能有1个保留下来即可四家平局，每家都留是为了容错防意外的。
+            </li>
+            <li data-v-04e51e8a="" class="highlight">
+              最新的智能快捷算分，可实现5分钟内算分出结果，绝对是全网最方便、最快捷、最简单的了。还在纠结要不要花5块钱体验一下的用户，请先看看此
+              <a
+                data-v-04e51e8a=""
+                href="https://note.youdao.com/s/Fx1lnxmQ"
+                target="_blank"
+                class="color-red"
+                >使用教程</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          data-v-04e51e8a=""
+          class="flex-space-between"
+          style="margin: 10px 15px 0px; font-size: 12px"
+        >
+          <a
+            data-v-04e51e8a=""
+            href="https://note.youdao.com/s/Fx1lnxmQ"
+            target="_blank"
+            class="color-red"
+            >点击查看最新的智能版图文教学</a
+          ><a
+            data-v-04e51e8a=""
+            href="https://www.flyunfu.com/details/FB605207"
+            target="_blank"
+            style="color: rgb(7, 193, 96)"
+            >点击去购买</a
+          >
+        </div>
+        <div data-v-47c9975d="" data-v-04e51e8a="" class="buy-block">
+          <div
+            data-v-47c9975d=""
+            class="buy-tips color-red"
+            style="font-size: 14px; font-weight: bold"
+          >
+            该算分小工具已经正式开始收费了！
+          </div>
+          <div data-v-47c9975d="" class="buy-tips">
+            使用此工具需要购买卡券。<br data-v-47c9975d="" />
+            购买后，一个卡券从激活使用后，有效期10天，有效期内可无限使用，每个卡券可以激活3次（之所以让激活3次，是因为使用信息是记录在浏览器缓存里，如果浏览器被意外清除了缓存，那就会失效，此时你还有2次机会可以激活这个卡券。如果2次机会都没了，那你只能再买一个咯。。。反正也不贵）<br
+              data-v-47c9975d=""
+            />
+            有任何问题，请加作者微信: Darsbo
+          </div>
+          <div data-v-47c9975d="" class="block-item-container status-type-0">
+            <div data-v-47c9975d="" class="block-item flex-center">
+              <div data-v-47c9975d="" class="key">
+                当前状态：<span data-v-47c9975d="" class="value">尚未购买</span>
+              </div>
+              <div data-v-47c9975d="" class="subValue">07320FC1</div>
+            </div>
+            <!---->
+          </div>
+          <div data-v-47c9975d="" class="buy-bottom flex-space-between">
+            <button
+              data-v-47c9975d=""
+              class="buy-left van-button van-button--info van-button--normal van-button--block"
+            >
+              <div data-v-47c9975d="" class="van-button__content">
+                <span data-v-47c9975d="" class="van-button__text"
+                  >使用卡券</span
+                >
+              </div></button
+            ><button
+              data-v-47c9975d=""
+              class="buy-right van-button van-button--primary van-button--normal van-button--block"
+            >
+              <div data-v-47c9975d="" class="van-button__content">
+                <span data-v-47c9975d="" class="van-button__text"
+                  >点击购买</span
+                >
+              </div>
+            </button>
+          </div>
+          <!---->
+        </div>
+        <div data-v-04e51e8a="" class="tips-info">
+          所有的输入信息都是即时储存的，切页面或者退出，下次进来还会有数据，不会丢失
+        </div>
+        <div
+          data-v-04e51e8a=""
+          role="radiogroup"
+          class="van-radio-group van-radio-group--horizontal"
+          style="margin: 20px"
+        >
+          <div
+            data-v-04e51e8a=""
+            role="radio"
+            tabindex="-1"
+            aria-checked="false"
+            class="van-radio van-radio--horizontal"
+          >
+            <div class="van-radio__icon van-radio__icon--round">
+              <i class="van-icon van-icon-success"><!----></i>
+            </div>
+            <span class="van-radio__label">黄金局</span>
+          </div>
+          <div
+            data-v-04e51e8a=""
+            role="radio"
+            tabindex="-1"
+            aria-checked="false"
+            class="van-radio van-radio--horizontal"
+          >
+            <div class="van-radio__icon van-radio__icon--round">
+              <i class="van-icon van-icon-success"><!----></i>
+            </div>
+            <span class="van-radio__label">钻石局</span>
+          </div>
+          <div
+            data-v-04e51e8a=""
+            role="radio"
+            tabindex="0"
+            aria-checked="true"
+            class="van-radio van-radio--horizontal"
+          >
+            <div
+              class="van-radio__icon van-radio__icon--round van-radio__icon--checked"
+            >
+              <i class="van-icon van-icon-success"><!----></i>
+            </div>
+            <span class="van-radio__label">王者局</span>
+          </div>
+        </div>
+        <div data-v-a08a0584="" data-v-04e51e8a="">
+          <div
+            data-v-a08a0584=""
+            role="button"
+            tabindex="0"
+            class="van-cell van-cell--clickable van-field"
+          >
+            <div class="van-cell__title van-field__label" style="width: 8em">
+              <span>场上公会数量：</span>
+            </div>
+            <div class="van-cell__value van-field__value">
+              <div class="van-field__body">
+                <input
+                  type="text"
+                  readonly="readonly"
+                  placeholder="请选择"
+                  class="van-field__control"
+                />
+                <div class="van-field__right-icon">
+                  <i class="van-icon van-icon-arrow"><!----></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div data-v-04e51e8a="" class="tips-info">
+          从积分面板那边看，有几家，就选几
+        </div>
+        <div data-v-04e51e8a="" class="tips-info color-red">
+          现在，检查下场上单个沙地的分数，是不是<strong data-v-04e51e8a=""
+            >312</strong
+          >。如果不是，说明你上面弄错了
+        </div>
+        <div data-v-04e51e8a="" class="block-title flex-space-between">
+          第一步，请输入公会名和位置关系<span
+            data-v-04e51e8a=""
+            class="color-red"
+            style="font-size: 12px"
+            >查看三并说明</span
+          >
+        </div>
+        <div data-v-04e51e8a="" class="tips-info color-red">
+          注意公会地图位置的上下左右关系
+        </div>
+        <div data-v-04e51e8a="" class="tips-info">
+          如果不输入名称，则不会参与计算。可用于任意数量公会并列
+        </div>
+        <div data-v-58858217="" data-v-04e51e8a="">
+          <div data-v-58858217="" class="row1 flex-center justify-center">
+            <input
+              data-v-58858217=""
+              type="text"
+              placeholder="公会A"
+              maxlength="6"
+              class="inputName"
+            />
+          </div>
+          <div data-v-58858217="" class="row2 flex-center justify-center">
+            <input
+              data-v-58858217=""
+              type="text"
+              placeholder="公会B"
+              maxlength="6"
+              class="inputName"
+            />
+            <div data-v-58858217="" class="empty-center"></div>
+            <input
+              data-v-58858217=""
+              type="text"
+              placeholder="公会D"
+              maxlength="6"
+              class="inputName"
+            />
+          </div>
+          <div data-v-58858217="" class="row3 flex-center justify-center">
+            <input
+              data-v-58858217=""
+              type="text"
+              placeholder="公会C"
+              maxlength="6"
+              class="inputName"
+            />
+          </div>
+        </div>
+        <div data-v-00837a74="" data-v-04e51e8a="">
+          <div data-v-00837a74="" class="block-title">
+            第二步，设置剩余的轮数
+          </div>
+          <div
+            data-v-00837a74=""
+            role="button"
+            tabindex="0"
+            class="van-cell van-cell--clickable van-field"
+          >
+            <div class="van-cell__title van-field__label">
+              <span>剩余轮数：</span>
+            </div>
+            <div class="van-cell__value van-field__value">
+              <div class="van-field__body">
+                <input
+                  type="text"
+                  readonly="readonly"
+                  placeholder="请选择"
+                  class="van-field__control"
+                />
+                <div class="van-field__right-icon">
+                  <i class="van-icon van-icon-arrow"><!----></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div data-v-717871ea="" data-v-04e51e8a="" class="scores">
+          <div
+            data-v-717871ea=""
+            class="block-title flex-space-between"
+            style="margin-bottom: 0px"
+          >
+            <span data-v-717871ea="">第三步，输入最近两轮的分数</span
+            ><button
+              data-v-717871ea=""
+              class="van-button van-button--primary van-button--mini"
+              style="color: white; background: red; border-color: red"
+            >
+              <div data-v-717871ea="" class="van-button__content">
+                <i
+                  data-v-717871ea=""
+                  class="van-icon van-icon-exchange van-button__icon"
+                  ><!----></i
+                >
+              </div>
+            </button>
+          </div>
+          <div data-v-717871ea="" class="tips-info">
+            注意：右边的分比左面的分高，不要输反了
+          </div>
+          <div data-v-717871ea="">
+            <div data-v-717871ea="" class="van-cell-group__title">
+              <div data-v-717871ea="" class="groupTitle flex-space-between">
+                <span data-v-717871ea="" style="width: 100px">公会</span>
+                <div data-v-717871ea="" class="inputs flex-center">
+                  <span data-v-717871ea="" class="inputScore">星期一R1轮</span
+                  ><span data-v-717871ea="" class="inputScore">星期一R2轮</span>
+                </div>
+              </div>
+            </div>
+            <div
+              data-v-717871ea=""
+              class="van-cell-group van-hairline--top-bottom"
+            >
+              <div data-v-717871ea="" class="van-cell">
+                <div data-v-717871ea="" class="van-cell__title">
+                  <span data-v-717871ea="">公会A</span>
+                </div>
+                <div data-v-717871ea="" class="van-cell__value">
+                  <div data-v-717871ea="" class="inputs flex-center">
+                    <input
+                      data-v-717871ea=""
+                      type="number"
+                      placeholder="请输入"
+                      maxlength="7"
+                      class="inputScore"
+                    /><input
+                      data-v-717871ea=""
+                      type="number"
+                      placeholder="请输入"
+                      maxlength="7"
+                      class="inputScore"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div data-v-717871ea="" class="van-cell">
+                <div data-v-717871ea="" class="van-cell__title">
+                  <span data-v-717871ea="">公会B</span>
+                </div>
+                <div data-v-717871ea="" class="van-cell__value">
+                  <div data-v-717871ea="" class="inputs flex-center">
+                    <input
+                      data-v-717871ea=""
+                      type="number"
+                      placeholder="请输入"
+                      maxlength="7"
+                      class="inputScore"
+                    /><input
+                      data-v-717871ea=""
+                      type="number"
+                      placeholder="请输入"
+                      maxlength="7"
+                      class="inputScore"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div data-v-717871ea="" class="van-cell">
+                <div data-v-717871ea="" class="van-cell__title">
+                  <span data-v-717871ea="">公会C</span>
+                </div>
+                <div data-v-717871ea="" class="van-cell__value">
+                  <div data-v-717871ea="" class="inputs flex-center">
+                    <input
+                      data-v-717871ea=""
+                      type="number"
+                      placeholder="请输入"
+                      maxlength="7"
+                      class="inputScore"
+                    /><input
+                      data-v-717871ea=""
+                      type="number"
+                      placeholder="请输入"
+                      maxlength="7"
+                      class="inputScore"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div data-v-717871ea="" class="van-cell">
+                <div data-v-717871ea="" class="van-cell__title">
+                  <span data-v-717871ea="">公会D</span>
+                </div>
+                <div data-v-717871ea="" class="van-cell__value">
+                  <div data-v-717871ea="" class="inputs flex-center">
+                    <input
+                      data-v-717871ea=""
+                      type="number"
+                      placeholder="请输入"
+                      maxlength="7"
+                      class="inputScore"
+                    /><input
+                      data-v-717871ea=""
+                      type="number"
+                      placeholder="请输入"
+                      maxlength="7"
+                      class="inputScore"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-v-04e51e8a="" class="block-title">第四步，确定银行安排</div>
+        <div
+          data-v-12376a9c=""
+          data-v-04e51e8a=""
+          class="bankHistoryContainer van-cell-group van-hairline--top-bottom"
+        >
+          <div data-v-12376a9c="" class="wrapper">
+            <div data-v-12376a9c="" class="day-header">
+              <div data-v-12376a9c="" class="titles">
+                <div data-v-12376a9c="" class="title"></div>
+              </div>
+              <div data-v-12376a9c="" class="week">星期一</div>
+              <div data-v-12376a9c="" class="week">星期二</div>
+              <div data-v-12376a9c="" class="week">星期三</div>
+              <div data-v-12376a9c="" class="week">星期四</div>
+              <div data-v-12376a9c="" class="week">星期五</div>
+              <div data-v-12376a9c="" class="week">星期六</div>
+              <div data-v-12376a9c="" class="week">星期日</div>
+            </div>
+            <div data-v-12376a9c="" class="day-header">
+              <div data-v-12376a9c="" class="titles">
+                <div data-v-12376a9c="" class="title"></div>
+                <div data-v-12376a9c="" class="title">公会A</div>
+                <div data-v-12376a9c="" class="title">公会B</div>
+                <div data-v-12376a9c="" class="title">公会C</div>
+                <div data-v-12376a9c="" class="title">公会D</div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">14</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">13</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">12</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">11</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">10</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">9</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">8</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">7</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">6</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">5</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">4</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">3</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">2</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-v-12376a9c="" class="days">
+                <div data-v-12376a9c="" class="day">1</div>
+                <div
+                  data-v-12376a9c=""
+                  role="radiogroup"
+                  class="van-radio-group"
+                >
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="0"
+                    aria-checked="true"
+                    class="radio van-radio"
+                  >
+                    <div
+                      class="van-radio__icon van-radio__icon--square van-radio__icon--checked"
+                    >
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                  <div
+                    data-v-12376a9c=""
+                    role="radio"
+                    tabindex="-1"
+                    aria-checked="false"
+                    class="radio van-radio"
+                  >
+                    <div class="van-radio__icon van-radio__icon--square">
+                      <i class="van-icon van-icon-success"><!----></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-v-ac2df036="" data-v-04e51e8a="">
+          <div data-v-ac2df036="" class="block-title flex-space-between">
+            <span data-v-ac2df036="">第五步，填写空地</span>
+            <div data-v-ac2df036="" class="tips-button">
+              收起说明
+              <i data-v-ac2df036="" class="van-icon van-icon-arrow-up"
+                ><!----></i
+              >
+            </div>
+          </div>
+          <div data-v-ac2df036="" class="tips-info">
+            所有当前未占领的，都可以当成空地（比如高塔也算）
+            <br data-v-ac2df036="" />可以<span
+              data-v-ac2df036=""
+              class="color-red"
+              >先假设所有的预留空地都尽量早占领</span
+            >。 <br data-v-ac2df036="" />如果无法平局，后面会提示的。
+            <br
+              data-v-ac2df036=""
+            />比如，假设现在是第一周星期天晚上22：00后，（第三轮刚结算完），那么剩余的轮数是14，下一轮是星期一的第一轮。
+            <br
+              data-v-ac2df036=""
+            />假如现在全场有两个沙地，则点击+空地，添加这两个沙地，占领时机为星期一的第一轮。然后去计算是否可平局。
+            <br
+              data-v-ac2df036=""
+            />如果无法平局，可根据提示，将预留的地皮延后占领。比如，假设提示延后2次，那么你可以将1块沙地延后2轮，或者将2块沙地延后1轮，效果是一样的。
+          </div>
+          <div
+            data-v-ac2df036=""
+            class="van-cell-group van-hairline--top-bottom"
+          >
+            <button
+              data-v-ac2df036=""
+              class="add-btn van-button van-button--primary van-button--small van-button--plain"
+            >
+              <div data-v-ac2df036="" class="van-button__content">
+                <i
+                  data-v-ac2df036=""
+                  class="van-icon van-icon-plus van-button__icon"
+                  ><!----></i
+                ><span data-v-ac2df036="" class="van-button__text">空地</span>
+              </div>
+            </button>
+          </div>
+          <!----><!----><!----><!---->
+        </div>
+        <div data-v-04e51e8a="" class="block-title">
+          上面的都填好了，就开始计算吧
+        </div>
+        <button
+          data-v-04e51e8a=""
+          class="beginCalc van-button van-button--primary van-button--normal van-button--block"
+        >
+          <div data-v-04e51e8a="" class="van-button__content">
+            <span data-v-04e51e8a="" class="van-button__text">开始计算吧</span>
+          </div></button
+        ><!----><!---->
+        <div
+          data-v-04e51e8a=""
+          class="buttons-bottom"
+          style="margin: 10px 20px"
+        >
+          <button
+            data-v-04e51e8a=""
+            class="copyMethod van-button van-button--info van-button--small van-button--plain"
+          >
+            <div data-v-04e51e8a="" class="van-button__content">
+              <span data-v-04e51e8a="" class="van-button__text">复制方案</span>
+            </div></button
+          ><button
+            data-v-04e51e8a=""
+            class="copyMethod van-button van-button--primary van-button--small van-button--plain"
+          >
+            <div data-v-04e51e8a="" class="van-button__content">
+              <span data-v-04e51e8a="" class="van-button__text">加载方案</span>
+            </div></button
+          ><button
+            data-v-04e51e8a=""
+            class="copyMethod van-button van-button--warning van-button--small van-button--plain"
+          >
+            <div data-v-04e51e8a="" class="van-button__content">
+              <span data-v-04e51e8a="" class="van-button__text">删除方案</span>
+            </div>
+          </button>
+        </div>
+        <div
+          data-v-04e51e8a=""
+          class="buttons-bottom"
+          style="margin: 10px 20px"
+        >
+          <button
+            data-v-04e51e8a=""
+            class="copyMethod van-button van-button--info van-button--small van-button--plain"
+          >
+            <div data-v-04e51e8a="" class="van-button__content">
+              <span data-v-04e51e8a="" class="van-button__text"
+                >储存方案到服务器</span
+              >
+            </div></button
+          ><button
+            data-v-04e51e8a=""
+            class="copyMethod van-button van-button--primary van-button--small van-button--plain"
+          >
+            <div data-v-04e51e8a="" class="van-button__content">
+              <span data-v-04e51e8a="" class="van-button__text"
+                >从服务器加载方案</span
+              >
+            </div>
+          </button>
+        </div>
+        <!----><!----><!----><!---->
+      </div>
+      <div data-v-5126c706="" class="author">
+        <div data-v-5126c706="">
+          直接请教作者，请加微信号：<span data-v-5126c706="" class="color-red"
+            >Darsbo</span
+          ><br data-v-5126c706="" />(这段话点一下就能复制微信号哈~)
+        </div>
+        <div data-v-5126c706="" class="color-red" style="margin-top: 10px">
+          作者有个并列教学群，入群请加作者微信。<br
+            data-v-5126c706=""
+          />群内免费教学哦
+        </div>
+      </div>
+      <div data-v-5126c706="" class="beian">
+        <a data-v-5126c706="" href="https://beian.miit.gov.cn/" target="_blank"
+          >沪ICP备2022000672号-1</a
+        >
+      </div>
+    </div>
+    <script src="./js/chunk-vendors.fb5498bc.js"></script>
+    <script src="./js/app.ac73fbbb.js"></script>
+  </body>
+</html>
