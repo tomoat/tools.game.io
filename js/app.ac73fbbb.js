@@ -1452,7 +1452,7 @@
                         var e = this;
                         return new Promise((function (t, n) {
                             h({
-                                url: "api/userInfo",
+                                url: "./api/userInfo",
                                 method: "get",
                                 data: {
                                     uid: e.uid,
