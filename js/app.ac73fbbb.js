@@ -687,7 +687,7 @@
                     , n = e._self._c || t;
                 return n("div", [e._v("直接请教作者，请加微信号："), n("span", {
                     staticClass: "color-red"
-                }, [e._v("Darsbo")]), n("br"), e._v("(这段话点一下就能复制微信号哈~)")])
+                }, [e._v("skyi2500")]), n("br"), e._v("(这段话点一下就能复制微信号哈~)")])
             }
                 , function () {
                     var e = this
@@ -698,7 +698,7 @@
                         staticStyle: {
                             "margin-top": "10px"
                         }
-                    }, [e._v("作者有个并列教学群，入群请加作者微信。"), n("br"), e._v("群内免费教学哦")])
+                    }, [e._v(""), n("br"), e._v("")])
                 }
                 , function () {
                     var e = this
@@ -708,10 +708,10 @@
                         staticClass: "beian"
                     }, [n("a", {
                         attrs: {
-                            href: "https://beian.miit.gov.cn",
+                            href: "#",
                             target: "_blank"
                         }
-                    }, [e._v("沪ICP备2022000672号-1")])])
+                    }, [e._v("沪ICP备2024")])])
                 }
             ]
             , c = n("fa7d")
