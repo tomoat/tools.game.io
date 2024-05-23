@@ -54,7 +54,7 @@
                 "chunk-767d20f8": 1
             };
         a[e] ? t.push(a[e]) : 0 !== a[e] && n[e] && t.push(a[e] = new Promise((function (t, n) {
-            for (var r = "css/" + ({}[e] || e) + "." + {
+            for (var r = "./css/" + ({}[e] || e) + "." + {
                 "chunk-767d20f8": "3f546845"
             }[e] + ".css", o = i.p + r, s = document.getElementsByTagName("link"), c = 0; c < s.length; c++) {
                 var u = s[c]
